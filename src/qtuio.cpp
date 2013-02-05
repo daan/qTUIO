@@ -190,8 +190,9 @@ bool QTuio::tuioToQt(TUIO::TuioCursor *tcur, QEvent::Type eventType)
         }
     default: {}
     }
-
-    QEvent *touchEvent = new QTouchEvent(eventType, QTouchEvent::TouchScreen, Qt::NoModifier, touchPointStates, qTouchPointMap->values());
+    // qt5    QTouchEvent(QEvent::Type eventType, QTouchDevice * device = 0,..... 
+    // dus
+    QEvent *touchEvent = new QTouchEvent(eventType, 0, Qt::NoModifier, touchPointStates, qTouchPointMap->values());
 
 /**********************************************************
  * Old Code doesn't work with QGraphicsView

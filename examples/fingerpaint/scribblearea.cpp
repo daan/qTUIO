@@ -41,6 +41,9 @@
 
  #include <QtGui>
 
+#include <QPrinter>
+#include <QPrintDialog>
+
  #include "scribblearea.h"
 
  ScribbleArea::ScribbleArea(QWidget *parent)

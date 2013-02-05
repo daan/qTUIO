@@ -1,3 +1,7 @@
+
+greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
+!isEmpty(QT.printsupport.name): QT += printsupport
+
 unix { 
     LIBS += -L../../lib \
         -lqTUIO

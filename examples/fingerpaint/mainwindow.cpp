@@ -41,6 +41,13 @@
 
  #include <QtGui>
 
+#include <QFileDialog>
+#include <QAction>
+#include <QMessageBox>
+#include <QMenu>
+#include <QMenuBar>
+
+
  #include "mainwindow.h"
  #include "scribblearea.h"
 
