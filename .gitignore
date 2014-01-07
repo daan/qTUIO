@@ -4,6 +4,7 @@ lib/*
 tmp/
 *.o
 .DS_Store
+*.pro.user
 moc_*
 .externalToolBuilders/
 Makefile
