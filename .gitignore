@@ -3,6 +3,7 @@ build/*
 lib/*
 tmp/
 *.o
+.DS_Store
 moc_*
 .externalToolBuilders/
 Makefile
